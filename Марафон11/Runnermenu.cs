@@ -13,9 +13,9 @@ using System.IO;
 
 namespace Марафон11
 {
-    public partial class Form3 : Form
+    public partial class Runnermenu : Form
     {
-        public Form3()
+        public Runnermenu()
         {
             InitializeComponent();
         }
@@ -51,6 +51,13 @@ namespace Марафон11
         private void Runner_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Kontakt Main = new Kontakt();
+            Main.Show();
+            this.Hide();
         }
     }
 }

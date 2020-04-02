@@ -61,7 +61,7 @@ namespace Марафон11
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 Runner1 = new Form3();
+            Runnermenu Runner1 = new Runnermenu();
             Runner1.Show();
             this.Hide();
         }

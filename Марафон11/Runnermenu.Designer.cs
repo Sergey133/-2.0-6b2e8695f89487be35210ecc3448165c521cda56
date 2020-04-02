@@ -1,6 +1,6 @@
 ﻿namespace Марафон11
 {
-    partial class Form3
+    partial class Runnermenu
     {
         /// <summary>
         /// Required designer variable.
@@ -131,6 +131,7 @@
             this.button4.TabIndex = 42;
             this.button4.Text = "Контакты";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -150,7 +151,7 @@
             this.button6.Text = "Мой спонсор";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // Form3
+            // Runnermenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -166,7 +167,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
-            this.Name = "Form3";
+            this.Name = "Runnermenu";
             this.Text = "Runner menu";
             this.Load += new System.EventHandler(this.Runner_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

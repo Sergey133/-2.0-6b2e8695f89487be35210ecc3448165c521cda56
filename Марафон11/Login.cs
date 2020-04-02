@@ -60,7 +60,7 @@ namespace Марафон11
                 File.WriteAllText("C://login.txt", textBox1.Text);
                 if (role == "R")
                 {
-                    Form3 Runner = new Form3();
+                    Runnermenu Runner = new Runnermenu();
                     Runner.Show();
                     this.Hide();
                 }

@@ -19,7 +19,7 @@ namespace Марафон11
         }
         private void check()
         {
-            if (textBox1.Text == "" | textBox2.Text == "" | textBox3.Text == "" | textBox4.Text == "" | textBox5.Text == "" | textBox6.Text == "" | comboBox1.Text == "") button3.Enabled = false; else button3.Enabled = true;
+            if (textBox1.Text == "" | textBox3.Text == "" | textBox4.Text == "" | textBox5.Text == "" | textBox6.Text == "" | comboBox1.Text == "") button3.Enabled = false; else button3.Enabled = true;
         }
 
 
@@ -31,13 +31,14 @@ namespace Марафон11
         private void Sponsor_Load(object sender, EventArgs e)
         {
             // TODO: данная строка кода позволяет загрузить данные в таблицу "maraphonDataSet.Runner". При необходимости она может быть перемещена или удалена.
-         
+
+
 
         }
 
         private void textBox6_TextChanged(object sender, EventArgs e)
         {
-            if (textBox2.TextLength == 0) textBox2.Text = "0";
+            if (textBox6.TextLength == 0) textBox6.Text = "0";
             label13.Text = textBox6.Text;
             if (Convert.ToInt32(textBox6.Text) <= 0)
             {
@@ -59,6 +60,13 @@ namespace Марафон11
             time1 = initial_time - current_time;
             time.Text = time1.Days.ToString() + " дней " + time1.Hours.ToString() + " часов и " + time1.Minutes.ToString() + " минут до старта марафона!";
 
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            Main Main = new Main();
+            Main.Show();
+            this.Hide();
         }
     }
 }
