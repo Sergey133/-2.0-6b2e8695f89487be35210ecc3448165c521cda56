@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Марафон11", "Марафон11\Марафон11.csproj", "{111A2281-1D2C-445F-82D0-13B0D4974487}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{111A2281-1D2C-445F-82D0-13B0D4974487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111A2281-1D2C-445F-82D0-13B0D4974487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111A2281-1D2C-445F-82D0-13B0D4974487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111A2281-1D2C-445F-82D0-13B0D4974487}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A5660D6-D9B6-47E3-9DEC-1954D56D6AF6}
+	EndGlobalSection
+EndGlobal
